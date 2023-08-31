@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.homepage {
+    &__content {
+        &--title {
+            padding: 20px;
+            text-align: center;
+            color: #666;
+        }
+
+        &--main {
+            padding: 40px;
+            max-width: 1024px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            justify-content: left;
+        }
+    }
+
+}
